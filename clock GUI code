@@ -14,7 +14,7 @@ def update():
     window.after(1000,update)
 
 window = Tk()
-window.title("Practise GUI")
+window.title("Clock program")
 icon = PhotoImage(file="R.png")
 window.iconphoto(True, icon)
 window.config(background="black")
